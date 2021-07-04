@@ -1,0 +1,60 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    min-width: 1000px;
+    
+    
+}
+.header {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height: 20rem;
+}
+
+.header__logo {
+    width: 10rem;
+    height: auto;
+}
+
+main section {
+    background-image: linear-gradient(to right top, #dcbacd, #caa4c3, #b390bb, #987eb5, #766eaf, #5b6bab, #3c68a6, #00649e, #006893, #006983, #006972, #166762);
+    width: 100%;
+    height: 50rem;
+}
+
+.carousel  {
+    width: 50%;
+    height: auto;
+}
+
+main section  .titulo {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    margin: 0 auto;
+    padding : 20px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer {
+    background-image: linear-gradient(to right top, #5b193e, #613257, #66496e, #6b5f81, #737490, #77829e, #7a90ab, #7f9eb6, #75abc2, #6ab8ca, #61c5cd, #61d1ca);
+    height: 20rem;
+}
+
+  
+
+.container .row .col-3 {
+    margin-top : 50px ;
+
+    color: #000;
+    background-color: #13a4a4;
+    border: 2px solid black ; 
+    
+}
